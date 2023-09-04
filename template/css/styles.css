@@ -2,3 +2,25 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#top-nav {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+main {
+  background-image: url("https://placedog.net/500/280");
+}
+
+#intro {
+  padding: 1rem;
+}
+
+#intro-text {
+  padding: 1rem;
+}
+

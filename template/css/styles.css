@@ -10,6 +10,16 @@ body {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  justify-items: left;
+  align-items: center;
+}
+
+#menu-outline {
+  justify-self: right;
+  width: 2rem;
+  height: 2rem;
 }
 
 header {
@@ -42,7 +52,7 @@ header {
   padding-bottom: 3rem;
 }
 
-#about-me {
+.text-container {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -52,15 +62,18 @@ header {
   color: #ffffff;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  background-color: #808080;
   margin: 0;
+}
+
+#about-me {
+  background-color: #808080;
 }
 
 #pic {
   border-radius: 10rem;
 }
 
-#first-line {
+.first-line {
   align-self: flex-start;
   font-weight: bold;
   font-size: 2rem;
@@ -69,3 +82,53 @@ header {
   margin-bottom: 0;
 }
 
+#projects {
+  background-color: #ffebcd;
+}
+
+#project-first {
+  align-self: center;
+  padding-bottom: 2rem;
+  color: #000000;
+}
+
+#project-box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.card {
+  color: #000000;
+  background-color: #ffffff;
+  padding: 1rem;
+}
+
+.project-screenshot {
+  align-self: center;
+}
+
+.card-links {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  color: red;
+  /*text-decoration: underline 2px #5f0e01;*/
+}
+
+#contact-me {
+  background-color: blueviolet;
+}
+
+#footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#go-to-top {
+  color: #ffffff;
+}

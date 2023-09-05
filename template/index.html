@@ -1,49 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Template</title>
+        <title>Template</title>
 
-    <meta name="description" content="Template HTML file">
-    <meta name="author" content="iO Academy">
+        <meta name="description" content="Template HTML file">
+        <meta name="author" content="iO Academy">
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/styles.css">
 
-    <link rel="icon" href="images/favicon.png" sizes="192x192">
-    <link rel="shortcut icon" href="images/favicon.png">
-    <link rel="apple-touch-icon" href="images/favicon.png">
+        <link rel="icon" href="images/favicon.png" sizes="192x192">
+        <link rel="shortcut icon" href="images/favicon.png">
+        <link rel="apple-touch-icon" href="images/favicon.png">
 
-    <!-- <script defer src="js/index.js"></script> -->
-</head>
+        <!-- <script defer src="js/index.js"></script> -->
+    </head>
 
-<body>
-<section>
-    <div id="top-nav">
-        <p>Andrej Hagenmüller</p>
-        <p>Nav dropdown</p>
-    </div>
-</section>
-<header>
-    <p id="intro">Hi, I'm <br> Andrej.</p>
-    <p id="intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <div id="intro-links">
-        <a href="" class="links">Message me</a>
-        <a href="" class="links">Get to know me</a>
-    </div>
-</header>
-<section>
-    <div id="about-me">
-        <p id="first-line">About me</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum pulvinar etiam non quam.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum pulvinar etiam non quam.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum pulvinar etiam non quam.</p>
-        <div id="me-pic">
-            <img src="https://placedog.net/150/150" alt="Image of Andrej" id="pic">
+    <body>
+        <section>
+            <div id="top-nav">
+                <p>Andrej Hagenmüller</p>
+                <img src="images/menu-outline.svg" alt="Menu outline button"
+                    id="menu-outline">
+            </div>
+        </section>
+        <header>
+            <p id="intro">Hi, I'm <br> Andrej.</p>
+            <p id="intro-text">Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit.</p>
+            <div id="intro-links">
+                <a href class="links">Message me</a>
+                <a href class="links">Get to know me</a>
+            </div>
+        </header>
+        <section>
+            <div class="text-container" id="about-me">
+                <p class="first-line">About me</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Elementum pulvinar etiam non quam.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Elementum pulvinar etiam non quam.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Elementum pulvinar etiam non quam.</p>
+                <img src="https://placedog.net/150/150" alt="Image of Andrej"
+                    id="pic">
+            </div>
+        </section>
+        <div class="text-container" id="projects">
+            <p class="first-line" id="project-first">Projects</p>
+            <div id="project-box">
+                <div class="card">
+                    <img src="https://placedog.net/350/150" alt="Screenshot">
+                    <p>Project 1</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="card-links">
+                        <a href>Github</a>
+                        <a href>Live project</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://placedog.net/350/150" alt="Screenshot">
+                    <p>Project 2</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="card-links">
+                        <a href>Github</a>
+                        <a href>Live project</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://placedog.net/350/150" alt="Screenshot"
+                        class="project-screenshot">
+                    <p>Project 3</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="card-links">
+                        <a href>Github</a>
+                        <a href>Live project</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://placedog.net/350/150" alt="Screenshot">
+                    <p>Project 4</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="card-links">
+                        <a href>Github</a>
+                        <a href>Live project</a>
+                    </div>
+                </div>
+
+            </div>
         </div>
-    </div>
-</section>
-</body>
+        <footer>
+            <section>
+                <div class="text-container" id="contact-me">
+                    <p class="first-line">Contact me</p>
+                    <p>If you'd like to get in touch, feel free to drop me an
+                        email
+                        or message me on LinkedIn. If you'd like to see more of
+                        the
+                        projects that I have contributed to, take a look at my
+                        GitHub.
+                    </p>
+                    <div id="footer">
+                        <p>Copyright</p>
+                        <a href id="go-to-top">Go back to top</a>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </body>
 </html>

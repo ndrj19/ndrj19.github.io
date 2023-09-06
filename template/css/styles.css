@@ -31,11 +31,19 @@ p {
   align-items: center;
 }
 
-#home-link, #about-me-link, #projects-link, #contact-link {
+.desktop-anchor {
   display: none;
   color: #000000;
   font-size: 1rem;
+  padding: 1rem;
   text-decoration: none;
+}
+
+.desktop-anchor:hover {
+  color: #ffffff;
+  background-color: #000000;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
 .dropdown {
@@ -121,6 +129,11 @@ p {
   text-decoration: underline;
 }
 
+.links:hover {
+  color: #808080;
+  border-radius: 1rem;
+}
+
 #section-about-me {
   background-color: #36454f;
 }
@@ -152,7 +165,8 @@ p {
 
 .card {
   color: #000000;
-  background-image: url("/template/images/stone-background.avif");
+  background-image: url("/template/images/card-background-upright.avif");
+  background-size: contain;
   padding: 1rem;
   box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.75);
 }
@@ -163,6 +177,10 @@ p {
 
 .card-links a {
   color: #000000;
+}
+
+.card-links a:hover {
+  color: #808080
 }
 
 #section-footer {
@@ -180,12 +198,21 @@ p {
   color: #ffffff;
 }
 
+.contact-links:hover {
+  color: #808080;
+}
+
 #chevron-up-outline {
   color: #ffffff;
   width: 2rem;
   height: 2rem;
   border: solid 2px #ffffff;
   border-radius: 0.5rem;
+}
+
+#chevron-up-outline:hover {
+  color: #808080;
+  border: solid 2px #808080;
 }
 
 

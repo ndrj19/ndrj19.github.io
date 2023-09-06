@@ -38,14 +38,49 @@ p {
   text-decoration: none;
 }
 
-#top-nav p {
-  color: #000000;
+.dropdown {
+  display: flex;
 }
 
-#filter-outline {
-  color: #000000;
+#dropdown-icon {
   width: 2rem;
   height: 2rem;
+}
+
+.dropbtn {
+  color: #000000;
+  background-color: #ffffff;
+  border: none;
+  width: 3rem;
+  height: 3rem;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #000000;
+  padding: 1rem;
+  opacity: 0.5;
+  border: solid 0.5px #808080;
+  border-radius: 1rem;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.dropdown-content a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#top-nav p {
+  color: #000000;
 }
 
 .section-background {
@@ -57,6 +92,7 @@ p {
   background-repeat: no-repeat;
   padding-top: 5rem;
   padding-bottom: 5rem;
+  box-shadow: inset 0px 10px 20px 0px rgba(0,0,0,0.75);
 }
 
 #section-intro {
@@ -115,8 +151,9 @@ p {
 
 .card {
   color: #000000;
-  background-color: #ffffff;
+  background-image: url("/template/images/stone-background.avif");
   padding: 1rem;
+  box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.75);
 }
 
 .card-image {
@@ -128,7 +165,7 @@ p {
 }
 
 #section-footer {
-  background-color: #8e0cc6;
+  background-color: #d8bfd8;
 }
 
 #footer {
@@ -155,7 +192,7 @@ p {
   #home-link, #about-me-link, #projects-link, #contact-link {
     display: flex;
   }
-  #filter-outline {
+  .dropdown {
     display: none;
   }
   .content {

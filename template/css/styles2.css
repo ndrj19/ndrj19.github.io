@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
   color: #ffffff;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -25,7 +29,13 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
 
+#home-link, #about-me-link, #projects-link, #contact-link {
+  display: none;
+  color: #000000;
+  font-size: 1rem;
+  text-decoration: none;
 }
 
 #top-nav p {
@@ -84,6 +94,7 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
 }
 
 #pic {
@@ -93,10 +104,6 @@ p {
 #section-projects {
   background-color: #ffebcd;
 }
-
-/* .container h1, p {
-  color: #000000;
-} */
 
 #project-box {
   width: 100%;
@@ -116,8 +123,12 @@ p {
   width: 100%;
 }
 
+.card-links a {
+  color: #000000;
+}
+
 #section-footer {
-  background-color: blueviolet;
+  background-color: #8e0cc6;
 }
 
 #footer {
@@ -125,6 +136,10 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.contact-links {
+  color: #ffffff;
 }
 
 #chevron-up-outline {
@@ -136,12 +151,24 @@ p {
 }
 
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 800px) {
+  #home-link, #about-me-link, #projects-link, #contact-link {
+    display: flex;
+  }
+  #filter-outline {
+    display: none;
+  }
   .content {
     justify-content: space-between;
   }
   .text {
     width: 60%;
     display: flex;
+  }
+  #project-box {
+    justify-content: space-evenly;
+  }
+  .card {
+    width: 45%;
   }
 }

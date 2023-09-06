@@ -25,6 +25,10 @@
                 <div id="top-nav">
                     <p>Andrej Hagenmüller</p>
                     <ion-icon name="filter-outline" id="filter-outline"></ion-icon>
+                    <a href="#anchor-home" id="home-link">HOME</a>
+                    <a href="#anchor-about-me" id="about-me-link">ABOUT ME</a>
+                    <a href="#anchor-projects" id="projects-link">PROJECTS</a>
+                    <a href="#anchor-contact" id="contact-link">CONTACT</a>
                 </div>
             </div>
         </section>
@@ -32,11 +36,13 @@
         <section>
             <div class="section-background" id="section-intro">
                 <div class="container">
-                    <h1>Hi, I'm <br> Andrej.</h1>
+                    <h1 id="anchor-home">Hi, I'm <br> Andrej.</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div id="intro-links">
-                        <a href class="links">Message me</a>
-                        <a href class="links">Get to know me</a>
+                        <a
+                            href="mailto:andrej.hagenmueller@gmail.com?subject=Let's work together!"
+                            class="links">Message me</a>
+                        <a href="#anchor-about-me" class="links">Get to know me</a>
                     </div>
                 </div>
             </div>
@@ -45,7 +51,7 @@
         <section>
             <div class="section-background" id="section-about-me">
                 <div class="container">
-                    <h1>About me</h1>
+                    <h1 id="anchor-about-me">About me</h1>
                     <div class="content">
                         <p class="text">Lorem ipsum dolor sit amet, consectetur
                             adipiscing
@@ -55,7 +61,7 @@
                             elit.
                             Elementum pulvinar etiam non quam.
                         </p>
-                        <img src="https://placedog.net/150/150"
+                        <img src="https://placedog.net/200/200"
                             alt="Image of Andrej" id="pic">
                     </div>
                 </div>
@@ -65,54 +71,54 @@
         <section>
             <div class="section-background" id="section-projects">
                 <div class="container">
-                    <h1>Projects</h1>
+                    <h1 id="anchor-projects">Projects</h1>
                     <div id="project-box">
 
                         <div class="card">
-                            <img src="https://placedog.net/350/150"
+                            <img src="https://placedog.net/250/150"
                                 alt="Screenshot" class="card-image">
                             <p>Project 1</p>
                             <p class="card-description">Lorem ipsum dolor sit
                                 amet, consectetur
                                 adipiscing elit.</p>
                             <div class="card-links">
-                                <a href>Github</a>
+                                <a href="https://github.com/ndrj19">Github</a>
                                 <a href>Live project</a>
                             </div>
                         </div>
                         <div class="card">
-                            <img src="https://placedog.net/350/150"
+                            <img src="https://placedog.net/250/150"
                                 alt="Screenshot" class="card-image">
                             <p>Project 2</p>
                             <p class="card-description">Lorem ipsum dolor sit
                                 amet, consectetur
                                 adipiscing elit.</p>
                             <div class="card-links">
-                                <a href>Github</a>
+                                <a href="https://github.com/ndrj19">Github</a>
                                 <a href>Live project</a>
                             </div>
                         </div>
                         <div class="card">
-                            <img src="https://placedog.net/350/150"
+                            <img src="https://placedog.net/250/150"
                                 alt="Screenshot" class="card-image">
                             <p>Project 3</p>
                             <p class="card-description">Lorem ipsum dolor sit
                                 amet, consectetur
                                 adipiscing elit.</p>
                             <div class="card-links">
-                                <a href>Github</a>
+                                <a href="https://github.com/ndrj19">Github</a>
                                 <a href>Live project</a>
                             </div>
                         </div>
                         <div class="card">
-                            <img src="https://placedog.net/350/150"
+                            <img src="https://placedog.net/250/150"
                                 alt="Screenshot" class="card-image">
                             <p>Project 4</p>
                             <p class="card-description">Lorem ipsum dolor sit
                                 amet, consectetur
                                 adipiscing elit.</p>
                             <div class="card-links">
-                                <a href>Github</a>
+                                <a href="https://github.com/ndrj19">Github</a>
                                 <a href>Live project</a>
                             </div>
                         </div>
@@ -125,18 +131,28 @@
         <section>
             <div class="section-background" id="section-footer">
                 <div class="container">
-                    <h1>Contact me</h1>
-                    <p class="text">Lorem ipsum dolor sit amet, consectetur
-                        adipiscing
-                        elit.
-                        Elementum pulvinar etiam non quam.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit.
-                        Elementum pulvinar etiam non quam.
+                    <h1 id="anchor-contact">Contact me</h1>
+                    <p>Lorem ipsum
+                        <a
+                            href="mailto:andrej.hagenmueller@gmail.com?subject=Let's work together!"
+                            class="contact-links">drop
+                            me an email
+                        </a>
+                        , consectetur adipiscing
+                        <a
+                            href="https://www.linkedin.com/in/andrejhagenmueller/"
+                            class="contact-links">LinkedIn
+                        </a>
+                        elit. Elementum pulvinar etiam
+                        <a href="https://github.com/ndrj19"
+                            class="contact-links">Github
+                        </a>
+                        non quam. Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Elementum pulvinar etiam non quam.
                     </p>
                     <div id="footer">
                         <p>© Copyright 2023</p>
-                        <a href>
+                        <a href="#top-nav">
                             <ion-icon name="chevron-up-outline"
                                 id="chevron-up-outline"></ion-icon>
                         </a>

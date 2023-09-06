@@ -12,8 +12,14 @@ body {
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
+
+/*
+make intro font bigger
+*/
+
+
 
 .section-background-top {
   width: 100%;

@@ -11,8 +11,8 @@
     <link rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Roboto&family=PT+Sans+Narrow&family=Castoro&display=swap">
 
-    <meta name="description" content="Template HTML file">
-    <meta name="author" content="iO Academy">
+    <meta name="description" content="Portfolio">
+    <meta name="author" content="Andrej">
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet"
@@ -21,15 +21,15 @@
       crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/styles.css">
 
-    <link rel="icon" href="images/favicon.png" sizes="192x192">
-    <link rel="shortcut icon" href="images/favicon.png">
-    <link rel="apple-touch-icon" href="images/favicon.png">
+    <link rel="icon" href="/images/favicon.png" sizes="192x192">
+    <link rel="shortcut icon" href="/images/favicon.png">
+    <link rel="apple-touch-icon" href="/images/favicon.png">
 
     <!-- <script defer src="js/index.js"></script> -->
   </head>
   <body>
 
-    <section>
+    <nav>
       <div class="section-background-top">
         <div id="top-nav">
           <p>Andrej Hagenmüller</p>
@@ -53,13 +53,13 @@
             class="desktop-anchor">CONTACT</a>
         </div>
       </div>
-    </section>
+    </nav>
 
-    <section>
+    <header>
       <div class="section-background" id="section-intro">
         <div class="container">
           <h1 id="anchor-home">Hi, I'm <br> Andrej</h1>
-          <p>I'm a Full Stack Developer in Bath, UK.</p>
+          <p id="intro-text">I'm a Full Stack Developer in Bath, UK.</p>
           <div id="intro-links">
             <a
               href="mailto:andrej.hagenmueller@gmail.com?subject=Let's work together!"
@@ -68,7 +68,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </header>
 
     <section>
       <div class="section-background" id="section-about-me">
@@ -84,20 +84,19 @@
             </p>
             <img src="https://placedog.net/200/200"
               alt="Image of Andrej" id="me-pic">
-            <!--better name-->
           </div>
         </div>
       </div>
     </section>
 
-    <section>
+    <main>
       <div class="section-background" id="section-projects">
         <div class="container">
           <h1 id="anchor-projects">Projects</h1>
           <div id="project-box">
 
             <div class="card">
-              <img src="https://placedog.net/250/150"
+              <img src="/images/background.jpg"
                 alt="Screenshot" class="card-image">
               <p>Project 1</p>
               <p class="card-description">Lorem ipsum dolor sit
@@ -109,7 +108,7 @@
               </div>
             </div>
             <div class="card">
-              <img src="https://placedog.net/250/150"
+              <img src="images/background.jpg"
                 alt="Screenshot" class="card-image">
               <p>Project 2</p>
               <p class="card-description">Lorem ipsum dolor sit
@@ -121,7 +120,7 @@
               </div>
             </div>
             <div class="card">
-              <img src="https://placedog.net/250/150"
+              <img src="images/background.jpg"
                 alt="Screenshot" class="card-image">
               <p>Project 3</p>
               <p class="card-description">Lorem ipsum dolor sit
@@ -133,7 +132,7 @@
               </div>
             </div>
             <div class="card">
-              <img src="https://placedog.net/250/150"
+              <img src="images/background.jpg"
                 alt="Screenshot" class="card-image">
               <p>Project 4</p>
               <p class="card-description">Lorem ipsum dolor sit
@@ -148,9 +147,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </main>
 
-    <section>
+    <footer>
       <div class="section-background" id="section-footer">
         <div class="container">
           <h1 id="anchor-contact">Contact me</h1>
@@ -176,7 +175,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </footer>
 
     <script type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
